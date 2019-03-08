@@ -38,14 +38,24 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Abstractions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.9.7\lib\net46\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.9.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.9.7\lib\net46\Unity.Container.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectFactory.cs" />
     <Compile Include="Interfaces\IBusinessProcessor.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="BusinessProcessor.cs" />
@@ -55,6 +65,10 @@
     <ProjectReference Include="..\CSVProcessorDomain\FileProcessorDomain.csproj">
       <Project>{88bde661-dda1-49ad-a775-ab7c23b00676}</Project>
       <Name>FileProcessorDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileProcessorEFDALLayer\FileProcessorEFDALLayer.csproj">
+      <Project>{4C7387EF-F8FF-4EDE-9494-418A712085D7}</Project>
+      <Name>FileProcessorEFDALLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProjectConstants\ProjectConstants.csproj">
       <Project>{B5C8DD22-2F65-4439-8E65-DF052BE6D327}</Project>

@@ -13,6 +13,8 @@ namespace FileProcessorBusinessLayer
     {
         public List<object> ProcessCSVData(string fileClass, string fullFilePath, out ErrorInfo[] erroredRecords)
         {
+            //Generic implementation of mapping corresponding model based on FileType and processing csv records. 
+            //Easily extendable for additional types of files by creating additional FileHelper classes
             Assembly asm = typeof(IFileHelperModel).Assembly;
             Type type = asm.GetType(fileClass);
             var engine = new DelimitedFileEngine(type);

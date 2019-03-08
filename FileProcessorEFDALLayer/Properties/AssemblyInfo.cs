@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CSVProcessorDALLayer")]
+[assembly: AssemblyTitle("FileProcessorEFDALLayer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("CSVProcessorDALLayer")]
+[assembly: AssemblyProduct("FileProcessorEFDALLayer")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("419973a6-f1b3-4f29-8484-3bf7ae6c866e")]
+[assembly: Guid("4c7387ef-f8ff-4ede-9494-418a712085d7")]
 
 // Version information for an assembly consists of the following four values:
 //

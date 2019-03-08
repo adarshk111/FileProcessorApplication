@@ -9,21 +9,23 @@ using ProjectConstants;
 
 namespace CSVProcessorDomain
 {
+    //Using | as a delimiter, can be changed to other delimiters like comma
+    //FileHelper is a 3rd party dll that helps in processing csv records and also flagging errors based on the attributes decorated for each column
     [DelimitedRecord(CSVConstants.FileDelimiter)]
     public class CustomerDataModel : IFileHelperModel
     {
         [FieldNotEmpty]
         [FieldTrim(TrimMode.Both)]
-        private string CustomerId { get; set; }
+        public string CustomerId { get; set; }
 
         [FieldTrim(TrimMode.Both)]
-        private string CustomerFirstName { get; set; }
+        public string CustomerFirstName { get; set; }
 
         [FieldTrim(TrimMode.Both)]
-        private string CustomerLastName { get; set; }
+        public string CustomerLastName { get; set; }
 
         [FieldTrim(TrimMode.Both)]
-        private string PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
     }
    }

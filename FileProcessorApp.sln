@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorBusinessLayer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorDomain", "CSVProcessorDomain\FileProcessorDomain.csproj", "{88BDE661-DDA1-49AD-A775-AB7C23B00676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectConstants", "ProjectConstants\ProjectConstants.csproj", "{B5C8DD22-2F65-4439-8E65-DF052BE6D327}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorDALLayer", "CSVProcessorDALLayer\FileProcessorDALLayer.csproj", "{419973A6-F1B3-4F29-8484-3BF7AE6C866E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectConstants", "ProjectConstants\ProjectConstants.csproj", "{B5C8DD22-2F65-4439-8E65-DF052BE6D327}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorBusinessLayerTests", "CSVBusinessLayerTests\FileProcessorBusinessLayerTests.csproj", "{46BE51FB-A91F-43A8-B3E4-3E3C1EF78828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessorEFDALLayer", "FileProcessorEFDALLayer\FileProcessorEFDALLayer.csproj", "{4C7387EF-F8FF-4EDE-9494-418A712085D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{B5C8DD22-2F65-4439-8E65-DF052BE6D327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C8DD22-2F65-4439-8E65-DF052BE6D327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C8DD22-2F65-4439-8E65-DF052BE6D327}.Release|Any CPU.Build.0 = Release|Any CPU
-		{419973A6-F1B3-4F29-8484-3BF7AE6C866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{419973A6-F1B3-4F29-8484-3BF7AE6C866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{419973A6-F1B3-4F29-8484-3BF7AE6C866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{419973A6-F1B3-4F29-8484-3BF7AE6C866E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46BE51FB-A91F-43A8-B3E4-3E3C1EF78828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46BE51FB-A91F-43A8-B3E4-3E3C1EF78828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46BE51FB-A91F-43A8-B3E4-3E3C1EF78828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46BE51FB-A91F-43A8-B3E4-3E3C1EF78828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7387EF-F8FF-4EDE-9494-418A712085D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7387EF-F8FF-4EDE-9494-418A712085D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7387EF-F8FF-4EDE-9494-418A712085D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7387EF-F8FF-4EDE-9494-418A712085D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

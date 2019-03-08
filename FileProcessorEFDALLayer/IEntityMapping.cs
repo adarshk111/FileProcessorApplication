@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSVProcessorDALLayer
+namespace FileProcessorEF
 {
-    public class Class1
+    public interface IEntityMapping
     {
+         void CreateEntityMapping(List<object> model);        
     }
 }
